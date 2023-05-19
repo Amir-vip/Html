@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	.nav {
+		font-size: 30px;
+		padding: 0% 0%;
+		margin: 0% 0%;
+
+
+	}
+}
+
+.nav {
+	background-color: red;
+	box-shadow: 0px 2px 5px rgba(48, 46, 46, 0.783);
+	position: fixed;
+	width: 100%;
+	color: white;
+	z-index: 1;
+
+}
+
+.nav ul {
+	display: flex;
+	margin-inline: 0%;
+	width: fit-content;
+
+
+
+}
+
+li {
+	padding: 10px;
+	list-style: none;
+}
+
+.nav li:hover {
+	background-color: goldenrod;
+	cursor: pointer;
+
+}
+
+.card {
+	background-color: red;
+	height: 80vh;
+	text-align: center;
+}
+
+.card h1 {
+	text-align: center;
+	padding: 200px 0 0 0;
+	font-size: 70px;
+	color: beige;
+}
+
+.card h3 {
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	color: bisque;
+}
+
+.card p {
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	color: aliceblue;
+}
+
+.card button {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+
+}
+
+
+.nav2 {
+	display: flex;
+
+}
+
+.card2 {
+	display: flex;
+	margin-top: 120px;
+	width: 320px;
+	height: 200px;
+	margin-left: 100px;
+
+
+
+}
+
+.txtContent>h4 {
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+
+}
+
+.txtContent>p {
+	width: 900px;
+	padding: 20px;
+	font-size: 20px;
+	
+}
+
+.txtContent>h1 {
+
+	font-style: bold;
+	margin-top: -60px;
+	padding: 20px;
+	margin-left: 20px;
+	
+}
+
+.Image>img {
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 180px;
+	padding: 10px;
+	filter: contrast(200%);
+	
+}
+
+.txtContent>p {
+	color: black;
+	opacity: 0.7;
+	margin-left: 20px;
+
+}
+
+.footerContentText {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	color: white;
+	margin: auto;
+	font-size: 30px;
+	margin-top: 190px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #c7c7c7;
+}
+
+
+.animated-button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+
+	color: #fff;
+	border:none;
+	cursor:pointer;
+}
+@keyframes pulseAnimation{
+	0% { transform: scale(1);
+	}
+
+	50% {transform: scale(1.1);
+
+	}
+	100% {
+		transform:scale(1)
+	}
+}
+.animated-button:hover{
+	animation:pulseAnimation 0.5s infinite;
+}
+.Amir{
+	padding: 20px 20px 40px 20px;
+	background-color: white;
+	color: aliceblue;
+}

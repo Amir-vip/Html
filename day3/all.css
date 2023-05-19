@@ -1,0 +1,18 @@
+*{
+	padding:0 ;
+	margin: 0;
+}
+.vip{
+	display: flex;
+}
+.VIP ul{
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+	width: fit-content;
+	''
+	
+}
+.VIP li{
+	padding: 10 px 15px;
+}''

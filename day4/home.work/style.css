@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+.card ul {
+	display: flex;
+	width: 100%;
+	height: 45px;
+	box-shadow: 0px 1px 2px 1px black;
+	list-style: none;
+	font-size: 20px;
+	background-color: black;
+}
+
+li {
+	color: white;
+	padding-inline: 15px;
+	height: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0 1 auto;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+}
+
+img {
+	width: 100%;
+	height: 89vh;
+}
+
+h1 {
+	width: fit-content;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.card2 {
+	display: flex;
+	font-family: 'Questrial', sans-serif;
+}
+
+.desc {
+	margin: 0 auto;
+	text-align: center;
+	width: 24.9%;
+}
+
+.desc img {
+	height: 150px;
+	border-radius: 100%;
+	width: 45%;
+
+}
+
+
+.desc p {
+	margin: 8px 0;
+}
+
+.container3 {
+	display: flex;
+	width: 100%;
+	background-color: rgb(57, 56, 56);
+
+
+}
+
+.text {
+	color: aliceblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: left;
+}
+
+
+h2 {
+	margin-left: 25px;
+	padding-top: 25px;
+
+
+
+}
+
+
+.push {
+	display: inline-flex;
+	padding: 20px;
+}
+
+.pushh {
+	background-color: white
+}
+
+.container3 {
+	padding: 64px 0;
+}
+
+.final1,
+.final2,
+.final3 {
+	margin-right: 10px;
+}
+
+.final1 img {
+	display: flex;
+	width: 300px;
+	height: 220px;
+}
+
+.final2 img {
+	display: flex;
+	width: 300px;
+	height: 220px;
+
+}
+
+.final3 img {
+	display: flex;
+	width: 300px;
+	height: 220px;
+
+}
+
+.final1 p {
+	width: 100%;
+	margin-top: 10px;
+	background-color: white;
+	margin-bottom: 10px;
+
+}
+
+.final2 p {
+	width: 100px;
+
+	margin-top: 10px;
+	background-color: white;
+	margin-bottom: 10px;
+
+}
+
+.final3 p {
+	margin-top: 10px;
+	background-color: white;
+	margin-bottom: 10px;
+
+}
+
+.final1 h3 {
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.final2 h3 {
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.final3 h3 {
+	background-color: white;
+	margin-bottom: 10px;
+	padding-bottom: 1opx;
+}
+
+h4 {
+	padding-bottom: 5px;
+
+}
+
+.aa {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10px;
+
+}
+
+.bb {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10px;
+
+}

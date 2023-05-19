@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color:sienna;
+}
+.container{
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 70px;
+	
+}
+.card{
+	width: 24.9%;
+	margin: 0 10px;
+	text-align: center;
+}
+.container2{
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+}
+.card{
+	width: 24.9%;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+}
+
+.Amir {
+	margin-left: 10px;
+}
+
+.card h3{
+	margin: 10px 0 10px ;
+}
+
+.card p{
+	color: black;
+}
+
+.card img{
+width: 100%;
+}
+.card h3 {
+margin: 10px 0 10px 0;
+}
+.container3{
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+
+.card2>img{
+margin: auto;
+justify-content: center;
+}
+.card h2{
+	margin: 10px 0 10px 0;
+	
+}
+.subMainContainer
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.subMainContainer>a{
+	margin-inline: 20px;
+	text-decoration: none;
+	padding: 20px;
+	font-weight: 600;
+	color: white;
+}
+.subMainContainer>a:hover{
+background-color: black;
+}
+.headingtxt
+{
+	text-align: center;
+}
+.card2{
+	text-align: center;
+
+}
+.card2>img{
+	width: 900px;
+	justify-content: center !important;
+	margin: auto;
+}

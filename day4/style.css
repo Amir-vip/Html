@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container1 ul {
+	display: flex;
+	list-style: none;
+	padding: 20px;
+	margin: 10px;
+	text-indent: 15px;
+
+}
+
+.container2 {
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.language {
+	width: 25%;
+}
+
+.type {
+	width: 25%;
+	text-align: center;
+}
+
+.type h4 {
+	/* padding-left: 49px; */
+	/* text-align: center; */
+	text-align: center;
+}
+
+.spectrum {
+	width: 50%;
+}
+
+li:nth-child(odd) {
+	background-color: aliceblue;
+}
+
+h4 {
+	/* width: 300px; */
+	text-align: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 12px;
+}
+
+.language>h4 {
+	margin-right: 30px;
+}
+
+li {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	list-style: none;
+	margin-bottom: 3px;
+
+}
+
+.audio {
+	display: flex;
+	margin-top: 20px;
+	width: 300px;
+	height: 240px;
+	background-color: gold;
+
+	padding: 10px 10px 10px 10px;
+
+}
+
+.a p {
+	width: 96.4%;
+	background-color: orange;
+}
+
+.b p {
+	width: 88.6%;
+	background-color: orange;
+}
+
+.c p {
+	width: 88.1%;
+	background-color: orange;
+}
+
+.d p {
+	width: 85.3%;
+	background-color: orange;
+}
+
+.e p {
+	width: 79.7%;
+	background-color: orange;
+}
+
+.f p {
+	width: 85.3%;
+	background-color: orange;
+}
+
+.j p {
+	width: 75.7%;
+	background-color: orange;
+
+}
+
+.n p {
+	width: 74.3%;
+	background-color: orange;
+}
+
+.m p {
+	width: 72.1%;
+	background-color: orange;
+
+}
+
+.x p {
+	width: 50%;
+	background-color: orange;
+
+}
+
+.container3 {
+	width: 300px;
+	height: 200px;
+}
+
+.container4 {
+	width: 300px;
+	height: 200px;
+}
+
+.container1 li {
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	font-size: 20px;
+
+
+
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.video {
+	display: flex;
+	width: auto;
+	height: auto;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+}
+
+.container1 button {
+	padding: 10px;
+
+}
+
+.button {
+	width: 30%;
+	height: 30%;
+	padding: 20px 20px 20px 20px;
+}
